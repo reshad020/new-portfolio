@@ -21,6 +21,7 @@ h1{
     background-image: url(fdreambig.png);
     background-size: cover;
     padding-bottom: 20px;
+    margin:0;
 }
 .tap-to-see:hover + .hidden{
     display:block;
@@ -54,10 +55,12 @@ h2{
 }
 .dream{
     display:flex;
-    background-image: url();
+    
+    
     margin:20px 10px;
     padding-left:30px;
     padding-top:100px;
+    
 }
 .dream-img{
     width:80%;
@@ -79,8 +82,11 @@ h2{
     opacity:1;
 }
 .exp-sec{
+    background-image: url(midban.png);
     display:flex;
+    background-size: cover;
     margin-bottom:10%;
+    margin:0;
 }
 .half-width2{
     width:35%;
@@ -111,9 +117,11 @@ progress{
     width:25%;
     margin:5% 30% 5% 30%;
     box-shadow: 10px 8px 12px black;
+    opacity:0.9;
 }
 .my-photos:hover{
     width:40%;
+    opacity:1;
 }
 .photography-head{
     color:tomato;
