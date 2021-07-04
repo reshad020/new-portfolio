@@ -80,6 +80,7 @@ h2{
 }
 .exp-sec{
     display:flex;
+    margin-bottom:10%;
 }
 .half-width2{
     width:35%;
@@ -116,4 +117,8 @@ progress{
 }
 .photography-head{
     color:tomato;
+}
+.footer{
+    text-align: center;
+
 }
