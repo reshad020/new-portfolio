@@ -82,12 +82,14 @@ h2{
     display:flex;
 }
 .half-width2{
-    width:50%;
+    width:35%;
     padding:20px;
-    margin-left:50px;
-    margin-right:50px;
-    border-left:2px;
-    border-image: linear-gradient(teal,black);
+    margin-left:6%;
+    margin-right:6%;
+    border-left:6px solid;
+    border-image: linear-gradient(#eecda3,#ef629f);
+    border-image-slice: 1;
+    
     box-shadow: 5px 6px 8px;
     
 }
