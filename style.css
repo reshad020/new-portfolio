@@ -21,3 +21,16 @@ section{
     background-image: url(fdreambig.png);
     background-size: cover;
 }
+.top-button{
+    color:whitesmoke;
+    text-decoration: none;
+    background-image: linear-gradient(crimson,brown);
+    padding:7px 18px;
+    border-radius: 8px;
+    opacity:0.7;
+    
+}
+.top-button:hover{
+    opacity:1;
+    
+}
