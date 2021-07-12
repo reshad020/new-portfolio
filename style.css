@@ -7,31 +7,6 @@ body{
 h1{
     font-size:50px;
 }
-@media (max-width:700px) {
-    h1{font-size:20px;}
-    .exp-sec{flex-direction: column;
-             }
-    
-    .half-width, .dream{
-        padding:0px 0px;
-        margin:0px 0px;
-    }
-    .top-img, .dream-img{
-        width:90%;
-    }
-    .top-button, .dream-button{
-        padding: 4px 7px;
-    }
-    .half-width1 {
-        margin:5px 5px;
-    }
-    .half-width2{
-        width:70%;
-    }
-    
-    
-    .my-photos{}
-}
 .half-width{
     padding:10px 20px;
     margin:10px 20px;
@@ -158,3 +133,32 @@ progress{
     text-align: center;
 
 }
+@media  screen and  (max-width:688px){
+    .half-width,.half-width1, .dream{
+        padding:0;
+        margin:0;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .top-img, .dream-img{
+        width:90%;
+    }
+    .top-button, .exp-button {
+        padding:4px 8px;
+    }
+    .exp-sec{
+        display:block;
+    }
+    .half-width2{
+        width:80%;
+        margin-bottom: 15px;
+    }
+    .my-photos{
+        display: block;
+        width:80%;
+        margin:5% 5%;
+    }
+}
+    
+
